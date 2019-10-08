@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 2px;
+}
+body{
+  background: #d0def5;
+  font-family: verdana;
+}
+.container{
+  width: 1200px;
+  background: white;
+  margin: 10px auto;
+}
+.superior{
+  background: #f5ecd0;
+  overflow: hidden;
+}
+.logo{
+  float: left;
+  width: 300px;
+  padding: 35px;
+}
+/*ESTILO DEL MENU*/
+.menu{
+  float: left;
+  padding: 25px;
+}
+.opciones li{
+  float: left;
+  list-style: none;
+}
+.opciones li a{
+  color: black;
+  padding: 25px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+.opciones li a:hover{
+  background: #c1d686;
+}
+section img{
+  margin-top: auto;
+}
+/*ESTILOS PARA EL CUERPO */
+
+.caja{
+  float: left;
+  width: 300px;
+  margin: 15px;
+
+}
