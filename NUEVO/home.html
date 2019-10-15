@@ -8,7 +8,8 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <title>Hello, world!</title>
   <style>
     .bg-home{
@@ -31,20 +32,29 @@
           <a class="nav-link" href="Home.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="About_Us">About Us</a>
+          <a class="nav-link" href="#about_us">About Us</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Contact.html">Contact</a>
         </li>
-        <li class="nav-item dropdown mr-md-5">
+        <li class="nav-item dropdown">
          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
            Users
          </a>
          <div class="dropdown-menu">
-           <a class="dropdown-item" href="login.html">Login</a>
-           <a class="dropdown-item" href="registro.html"></a>
+           <a class="dropdown-item" href="login.html">Sign In</a>
+           <a class="dropdown-item" href="registro.html">Sign Up</a>
          </div>
        </li>
+       <li class="nav-item dropdown mr-md-5">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item" href="producto,html">Producto 1</li>
+          <li class="dropdown-item" href="producto.html">Producto 2</li>
+        </ul>
+      </li>
       </ul>
     </div>
   </nav>
@@ -107,13 +117,13 @@
 <!--FINAL SECCION DE  ANUNCIO DE Descuentos-->
 
 <!--JUMBOTRON-->
-    <div class="col">
+    <div class="col-12 mt-5" id="about_us">
       <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
+        <h1 class="display-4">Hello, we are Essencials!</h1>
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
         <hr class="my-4">
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="Learn_more.html" role="button">Learn more</a>
+
       </div>
     </div>
   </section>
