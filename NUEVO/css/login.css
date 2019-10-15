@@ -1,0 +1,36 @@
+.containerOwnApp {
+   box-shadow: 0 0 30px 0 rgba(84, 84, 84, 0.62);
+   padding-top: 7px;
+}
+
+.login-page {
+  padding: 7% 0 0;
+  margin: 0 auto 100px;
+  max-width: 460px;
+  position: relative;
+}
+
+.login-form {
+   box-shadow: 0 0 30px 0 rgba(84, 84, 84, 0.62);
+}
+
+.login-form-header {
+   padding-top: 7px;
+}
+
+.login-from-row {
+   padding-top: 7px;
+   padding-bottom: 30px;
+}
+
+.login-form-font-header {
+   font-size:40px;
+   font-weight: bold;
+}
+
+.login-form-font-header span {
+   color: #55d361;
+}
+.login-form-footer {
+  box-shadow: none;
+}
