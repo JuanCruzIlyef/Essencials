@@ -7,92 +7,82 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    
-    <link rel="stylesheet" href="css/login.css">
-    <title>Login</title>
+
+    <title></title>
+    <style>
+      .bg-home{
+        background-color: rgba(200,250,45.1);
+      }
+    </style>
   </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-success p-1">
-            <a class="navbar-brand" href="#">Essencials</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+  <body class="container bg-home">
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav ml-auto mt-2 mt-lg-0 pr-md-5">
-                <li class="nav-item active">
-                  <a class="nav-link" href="Home.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Home.html#about_us">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Contact.html">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                   Users
-                 </a>
-                 <div class="dropdown-menu">
-                   <a class="dropdown-item" href="login.html">Sign In</a>
-                   <a class="dropdown-item" href="registro.html">Sign Up</a>
-                 </div>
-               </li>
-               <li class="nav-item dropdown mr-md-5">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                  <i class="fas fa-shopping-cart"></i>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="dropdown-item" href="producto,html">Producto 1</li>
-                  <li class="dropdown-item" href="producto.html">Producto 2</li>
-                </ul>
-              </li>
-              </ul>
-            </div>
-          </nav>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-success p-1">
+      <a class="navbar-brand" href="#">Essencials</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        </div>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 pr-md-5">
+          <li class="nav-item active">
+            <a class="nav-link" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about_us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+             Users
+           </a>
+           <div class="dropdown-menu">
+             <a class="dropdown-item" href="login.html">Sign In</a>
+             <a class="dropdown-item" href="registro.html">Sign Up</a>
+           </div>
+         </li>
+         <li class="nav-item dropdown mr-md-5">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-item" href="producto,html">Producto 1</li>
+            <li class="dropdown-item" href="producto.html">Producto 2</li>
+          </ul>
+        </li>
+        </ul>
       </div>
-    </div>
-    <div class="container">
-      <div class="row text-center">
-    	   <div class="col-md-12 login-form">
-    	      <form action="claseDestino.php" method="post">
-    	         <div class="row">
-    		    <div class="col-md-12 login-form-header">
-    		       <p class="login-form-font-header"><span>Login</span><p>
-    		    </div>
-    		</div>
-    		<div class="row">
-    		   <div class="col-md-12 login-from-row">
-    		      <input name="usuario" type="text" placeholder="Usuario" required/>
-    		   </div>
-    		</div>
-    		<div class="row">
-    		   <div class="col-md-12 login-from-row">
-    		      <input name="password" type="password" placeholder="Contraseña" required/>
-    		   </div>
-    		</div>
-    		<div class="row">
-    		   <div class="col-md-12 login-from-row">
-    		      <button class="btn btn-success">Entrar</button>
-    		   </div>
-    		</div>
-        <div class="row">
-      <div class="col-md-12 login-form-footer">
-        <p class="login-form-font-footer"><span>Olvide la contraseña</span><p>
-      </div>
-      </div>
+    </nav>
 
-    	    </form>
-    	</div>
-         </div>
+<main class="container bg-info p-5 m-8" align="center p-5">
+    <h3>Login</h3>
+    <form class="" action="index.html" method="post">
+      <p>
+        <label for="email">
+        Email:
+        </label>
+        <input id="email"type="email" name="email" value="">
+      </p>
+      <p>
+        <label for="pass">
+        Password:
+        </label>
+        <input id=""type="password" name="pass" value="" class="mr auto">
+      </p>
+      <div>
+        <a href="#" class="text-dark " style="">
+          Olvide mi contraseña
+        </a>
       </div>
+          <p>
+        <input class="btn btn-success"type="submit" name="" value="Submit">
+      </p>
+
+    </form>
+    </main>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -100,4 +90,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
+  <footer></footer>
 </html>
