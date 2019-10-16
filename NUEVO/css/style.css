@@ -1,0 +1,26 @@
+footer{
+  background-color: #28a745;
+  color: white;
+}
+padding-left: 30px;
+footer div ul h5.links{
+  padding-inline-start: 40px;
+
+}
+footer div ul.links{
+  padding-left: 0px;
+}
+footer div ul.links li{
+  list-style: none;
+
+}
+footer div ul.links li a{
+  color: white;
+
+}
+footer div ul.redes li{
+  list-style: none;
+}
+footer div ul.redes li a{
+  color: white;
+}
