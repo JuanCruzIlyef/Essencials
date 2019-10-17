@@ -91,5 +91,21 @@ input[type=submit]:hover {
 
 /* Registro */
 main h3 {
-  color: white;
+  color: black;
+}
+main input#boton {
+
+}
+
+/* FAQ */
+main section div article div.Preguntas{
+  color: black;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+main section div article div.Respuestas{
+  color: green;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
