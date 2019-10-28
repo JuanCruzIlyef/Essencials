@@ -1,12 +1,3 @@
-<?php
-// if ($_POST){
-//   if ($_FILES["imagen"]["error"]!= 0){
-// return 'Hubo un error en la carga';
-// }
-
- ?>
-
-
 
 
 <!doctype html>
@@ -29,6 +20,9 @@ background-image: url("imagen-mkt/textura02.jpg");
 </style>
 
   </head>
+
+
+
   <body class="container bg-home">
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-success p-1">
@@ -100,7 +94,9 @@ background-image: url("imagen-mkt/textura02.jpg");
       <p class="col-lg-2 col-md-12">
         <input class="btn btn-success" type="submit" name="" value="Enviar" id="boton">
       </p>
-    </form>
+
+
+
     </main>
 
 
