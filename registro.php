@@ -1,15 +1,11 @@
+
 <?php
-// if ($_POST){
-//   if ($_FILES["imagen"]["error"]!= 0){
-// return 'Hubo un error en la carga';
-// }
+include ("functions/indexFunctions.php");
+$errors = validar_datos_de_registro($_POST);
+var_dump($errors);
 
- ?>
+?>
 
-
-
-
-<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -29,7 +25,7 @@ background-image: url("imagen-mkt/textura02.jpg");
 </style>
 
   </head>
-  <body class="container bg-home">
+  <body class="container-fluid bg-home">
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-success p-1">
       <a class="navbar-brand" href="home.html">Essencials</a>
@@ -73,12 +69,14 @@ background-image: url("imagen-mkt/textura02.jpg");
       </div>
     </nav>
 <!--Registro-->
-<main class="container p-5 m-8" align="center p-10">
+<main class="container-fluid p-4 m-8" align="center p-10">
     <h3><u>Registrarse<u></h3>
     <form class="Registrarse" action="registro.php" method="post" enctype="multipart/form-data">
       <p class="col-lg-6 col-md-12">
         <label for="Nombre"></label>
-        <input id="Nombre" type="text" name="Nombre" value="" placeholder="Nombre">
+        <input id="Nombre" type="text" name="Nombre" value="
+
+        " placeholder="Nombre">
       </p>
       <p class="col-lg-6 col-md-12">
         <label for="email"></label>
@@ -89,8 +87,8 @@ background-image: url("imagen-mkt/textura02.jpg");
         <input id="password"type="password" name="password" value="" placeholder="Contraseña">
       </p>
       <p class="col-lg-6 col-md-12">
-        <label for="password"></label class="">
-        <input id="password"type="password" name="password" value="" placeholder="Confirmar contraseña">
+        <label for="password_confirmation"></label class="">
+        <input id="password_confirmation"type="password_confirmation" name="password_confirmation" value="" placeholder="Confirmar contraseña">
       </p>
       <p class="col-lg-6 col-md-12">
         <label for="Subi tu foto"></label>
@@ -110,6 +108,8 @@ background-image: url("imagen-mkt/textura02.jpg");
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
-  <footer></footer>
+  <footer>
+    <?php require ("modulos/footer.php"); ?>
+  </footer>
 
 </html>
