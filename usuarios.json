@@ -1,1 +1,30 @@
-[]
+[
+    {
+        "email": "",
+        "password": "$2y$10$YJC1PyduHODvELQtYgVjgOCEokGfpFy.qyXu1FQNMJGcL7v7ia\/sC"
+    },
+    {
+        "email": "soledadgmaldonado@hotmail.com",
+        "password": "$2y$10$25Dut.\/wFje9s16P4cxrcufi5KYH4eBJDpeqoZZFJfRneluxfCflS"
+    },
+    {
+        "email": "",
+        "password": "$2y$10$99a.W8RgRsMk\/Z33nYPhDOpNkLMwo4v9t535vrrEp2Gd\/g6Z03z86"
+    },
+    {
+        "email": "soledadgmaldonado@hotmail.com",
+        "password": "$2y$10$UkdvCAOvUgzWtva3D34YjeWMNZZAoDcCbPAUqi9ga6sZ7EAks8\/cq"
+    },
+    {
+        "email": "soledadgmaldonado@hotmail.com",
+        "password": "$2y$10$zRXJGFTYKMsnRJH5F5RYIOruF9pTlEo6fJMgHiLG3h9X6ucbjMk8G"
+    },
+    {
+        "email": "",
+        "password": "$2y$10$Ko9epjuzzoZsreQzCMTJr.iF1ZgO34t5\/CaHNQPr2eJbs1mVK1\/f6"
+    },
+    {
+        "email": "",
+        "password": "$2y$10$uXxj4LBuUSIxPjBe85VLPuUa.lw3wF3QSXqgPr02fwkq048FwnJ6G"
+    }
+]

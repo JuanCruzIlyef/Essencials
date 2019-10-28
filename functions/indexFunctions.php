@@ -4,6 +4,7 @@
 function validar_datos_de_registro(array $data){
   $errors = [];
 
+
   if ($data){
     if(strlen($data["Nombre"])== 0){
       $errors['Nombre'] = "El nombre no se completo";

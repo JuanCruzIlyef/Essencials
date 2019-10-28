@@ -1,8 +1,29 @@
 
 <?php
-include ("functions/indexFunctions.php");
-$errors = validar_datos_de_registro($_POST);
-var_dump($errors);
+require ("functions/indexFunctions.php");
+
+if($_POST){
+  $errors = validar_datos_de_registro($_POST);
+if(!count($errors) == 0){
+    $usuario = [
+    'email'=> $_POST['email'],
+    'password'=> password_hash($_POST['password'], PASSWORD_DEFAULT),
+  ];
+  //primero leo el archivo
+  $json = file_get_contents('usuarios.json');
+  //convierto el json a un array de php. el true es para que me devuelva string
+  $usuarios = json_decode($json, true);
+  //en el array agregamos el usuario, lo pusheo
+  $usuarios[]= $usuario;
+  //lo transformo en un json nuevamente
+  $json = json_encode($usuarios, JSON_PRETTY_PRINT);
+  //guardamos en el archivo la informacion, nombres de archivo y que datos voy a escribir
+  file_put_contents('usuarios.json', $json);
+  header("location:login.php? BIENVENIDO");
+}
+
+
+}
 
 ?>
 
@@ -87,8 +108,8 @@ background-image: url("imagen-mkt/textura02.jpg");
         <input id="password"type="password" name="password" value="" placeholder="Contraseña">
       </p>
       <p class="col-lg-6 col-md-12">
-        <label for="password_confirmation"></label class="">
-        <input id="password_confirmation"type="password_confirmation" name="password_confirmation" value="" placeholder="Confirmar contraseña">
+        <label for="password"></label class="">
+        <input id="password"type="password" name="password_confirmation" value="" placeholder="Confirmar contraseña">
       </p>
       <p class="col-lg-6 col-md-12">
         <label for="Subi tu foto"></label>
