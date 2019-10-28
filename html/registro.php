@@ -1,3 +1,14 @@
+<?php
+// if ($_POST){
+//   if ($_FILES["imagen"]["error"]!= 0){
+// return 'Hubo un error en la carga';
+// }
+
+ ?>
+
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -12,10 +23,11 @@
 
     <title>Registro</title>
     <style>
-      .bg-home{
-        background-color: rgba(200,250,45.1);
-      }
-    </style>
+    .bg-home{
+background-image: url("imagen-mkt/textura02.jpg");
+}
+</style>
+
   </head>
   <body class="container bg-home">
 
@@ -61,9 +73,9 @@
       </div>
     </nav>
 <!--Registro-->
-<main class="container bg-info p-5 m-8" align="center p-10">
+<main class="container p-5 m-8" align="center p-10">
     <h3><u>Registrarse<u></h3>
-    <form class="Registrarse" action="index.html" method="post">
+    <form class="Registrarse" action="registro.php" method="post" enctype="multipart/form-data">
       <p class="col-lg-6 col-md-12">
         <label for="Nombre"></label>
         <input id="Nombre" type="text" name="Nombre" value="" placeholder="Nombre">
@@ -81,6 +93,11 @@
         <input id="password"type="password" name="password" value="" placeholder="Confirmar contraseña">
       </p>
       <p class="col-lg-6 col-md-12">
+        <label for="Subi tu foto"></label>
+        <input type="text" name="Imagen" value="" placeholder="Subi tu foto">
+        <input type="file" name="imagen" value="">
+      </p>
+      <p class="col-lg-2 col-md-12">
         <input class="btn btn-success" type="submit" name="" value="Enviar" id="boton">
       </p>
     </form>
@@ -94,4 +111,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
   <footer></footer>
+
 </html>
