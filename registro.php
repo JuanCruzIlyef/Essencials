@@ -1,3 +1,4 @@
+<<<<<<< HEAD:registro.php
 
 <?php
 require ("functions/indexFunctions.php");
@@ -24,6 +25,8 @@ if(!count($errors) == 0){
 
 
 }
+=======
+>>>>>>> 761998713667a8c1dd150152047090cf4c726b93:html/registro.php
 
 ?>
 
@@ -46,7 +49,14 @@ background-image: url("imagen-mkt/textura02.jpg");
 </style>
 
   </head>
+<<<<<<< HEAD:registro.php
   <body class="container-fluid bg-home">
+=======
+
+
+
+  <body class="container bg-home">
+>>>>>>> 761998713667a8c1dd150152047090cf4c726b93:html/registro.php
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-success p-1">
       <a class="navbar-brand" href="home.html">Essencials</a>
@@ -119,7 +129,9 @@ background-image: url("imagen-mkt/textura02.jpg");
       <p class="col-lg-2 col-md-12">
         <input class="btn btn-success" type="submit" name="" value="Enviar" id="boton">
       </p>
-    </form>
+
+
+
     </main>
 
 

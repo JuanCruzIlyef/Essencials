@@ -4,7 +4,6 @@
 function validar_datos_de_registro(array $data){
   $errors = [];
 
-
   if ($data){
     if(strlen($data["Nombre"])== 0){
       $errors['Nombre'] = "El nombre no se completo";
@@ -13,7 +12,7 @@ function validar_datos_de_registro(array $data){
       $errors['email'] = "El email no es valido";
     }
     if($data["password"] == $data["password_confirmation"]){
-      $errors["password_comfirmation"] = "El password no coincide";
+      $errors["password_confirmation"] = "El password no coincide";
     }
   }
 

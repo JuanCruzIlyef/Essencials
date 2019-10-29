@@ -1,3 +1,10 @@
+<?php
+if($_POST){
+  include("validacion_php");
+}
+ ?>
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -61,7 +68,7 @@
 
 <main class="container bg-info p-5 m-8" align="center p-5">
     <h3>Ingresar</h3>
-    <form class="Ingreso" action="home.html" method="post">
+    <form class="Ingreso" action="login.php" method="post">
       <p>
         <label for="email"></label>
         <input id="email"type="email" name="email" value="" placeholder="E-mail">

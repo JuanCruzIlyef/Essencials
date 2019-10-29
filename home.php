@@ -147,7 +147,8 @@
         <p class="lead">Nuestra finalidad es crear cosméticos naturales, con materias primas seleccionadas, de eficacia comprobada, buscando mantener y potencias sus cualidades y beneficios. <br>
           Utilizamos aceites esenciales puros, por sus exquisitos aromas y propiedades.</p>
         <hr class="my-4">
-        <p>No testeamos en animales.</p>
+        <p>No testeamos en animales. <i class="fas fa-paw"></i> </p> 
+
 
       </div>
     </div>
@@ -160,7 +161,7 @@
     <div class="row px-1 m-md-3">
 
 
-      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3  border border-dark">
+      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3 px-3 border border-dark">
         <img src="imagen-mkt/cream-foto2.jpg" class="img-fluid" alt="">
 
         <section class= "articulos-ecommerce bg-white">
@@ -195,9 +196,9 @@
         <i class="text-warning fa fa-star"></i>
         <i class="text-warning fa fa-star"></i>
         <i class="text-warning fa fa-star"></i>
-        <i class="text-warning fa fa-star-half-alt"></i>
+        <i class="text-warning fa fa-star"></i>
 
-        <h5>$669</h5>
+        <h5>$750</h5>
         <button type="button" class="btn btn-success">Comprar</button>
 
 
@@ -210,7 +211,7 @@
       </article>
 
 
-      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3  border border-dark">
+      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3 px-3 border border-dark">
         <img src="imagen-mkt/face-cream.jpg" class="img-fluid" alt="">
 
         <section class= "articulos-ecommerce bg-white">
@@ -244,9 +245,9 @@
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
-          <i class="text-warning fa fa-star"></i>
-          <i class="text-warning fa fa-star-half-alt"></i>
-        <h5>$669</h5>
+          <i class="text-warning far fa-star"></i>
+          <i class="text-warning far fa-star"></i>
+        <h5>$569</h5>
         <button type="button" class="btn btn-success">Comprar</button>
 
 
@@ -259,7 +260,7 @@
 
       </article>
 
-      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3  border border-dark">
+      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3 px-3  border border-dark">
         <img src="imagen-mkt/slideshow/red-publicidad13.png" class="img-fluid" alt="">
 
         <section class= "articulos-ecommerce bg-white">
@@ -294,7 +295,7 @@
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
-          <i class="text-warning fa fa-star-half-alt"></i>
+          <i class="text-warning far fa-star"></i>
         <h5>$669</h5>
         <button type="button" class="btn btn-success">Comprar</button>
 
@@ -307,7 +308,7 @@
 
       </article>
 
-      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3  border border-dark">
+      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3 px-3  border border-dark">
         <img src="imagen-mkt/soap-02.jpg" class="img-fluid" alt="">
 
         <section class= "articulos-ecommerce bg-white">
@@ -342,8 +343,8 @@
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
-          <i class="text-warning fa fa-star-half-alt"></i>
-        <h5>$669</h5>
+          <i class="text-warning far fa-star"></i>
+        <h5>$599</h5>
         <button type="button" class="btn btn-success">Comprar</button>
 
 
@@ -355,7 +356,7 @@
 
       </article>
 
-      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3  border border-dark">
+      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3 px-3  border border-dark">
         <img src="imagen-mkt/soap-03.jpg" class="img-fluid" alt="">
         <section class= "articulos-ecommerce bg-white">
         <div class= "title-box py-5px">
@@ -390,7 +391,7 @@
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star-half-alt"></i>
-        <h5>$669</h5>
+        <h5>$599</h5>
         <button type="button" class="btn btn-success">Comprar</button>
 
 
@@ -401,7 +402,7 @@
         </section>
       </article>
 
-      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3  border border-dark">
+      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3 px-3  border border-dark">
         <img src="imagen-mkt/publicidad11.jpg" class="img-fluid" alt="">
         <section class= "articulos-ecommerce bg-white">
         <div class= "title-box py-5px">
@@ -435,8 +436,8 @@
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
-          <i class="text-warning fa fa-star-half-alt"></i>
-        <h5>$669</h5>
+          <i class="text-warning fa fa-star"></i>
+        <h5>$790</h5>
         <button type="button" class="btn btn-success">Comprar</button>
 
 
@@ -447,7 +448,7 @@
         </section>
       </article>
 
-      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3  border border-dark">
+      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3 px-3  border border-dark">
         <img src="imagen-mkt/gel-ducha (2).jpg" class="img-fluid" alt="">
         <section class= "articulos-ecommerce">
           <section class= "articulos-ecommerce bg-white">
@@ -483,7 +484,7 @@
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star-half-alt"></i>
-        <h5>$669</h5>
+        <h5>$469</h5>
         <button type="button" class="btn btn-success">Comprar</button>
 
 
@@ -495,7 +496,7 @@
 
       </article>
 
-      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3  border border-dark">
+      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3 px-3  border border-dark">
         <img src="imagen-mkt/soap-04.jpg" class="img-fluid" alt="">
         <section class= "articulos-ecommerce bg-white">
         <div class= "title-box py-5px">
@@ -529,7 +530,7 @@
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
-          <i class="text-warning fa fa-star-half-alt"></i>
+          <i class="text-warning far fa-star"></i>
         <h5>$669</h5>
         <button type="button" class="btn btn-success">Comprar</button>
 
@@ -541,7 +542,7 @@
         </section>
       </article>
 
-      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3  border border-dark">
+      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3 px-3  border border-dark">
         <img src="imagen-mkt/cream-foto4.jpg" class="img-fluid" alt="">
         <section class= "articulos-ecommerce bg-white">
         <div class= "title-box py-5px">
@@ -576,7 +577,7 @@
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star-half-alt"></i>
-        <h5>$669</h5>
+        <h5>$789</h5>
         <button type="button" class="btn btn-success">Comprar</button>
 
 
@@ -587,7 +588,7 @@
         </section>
       </article>
 
-      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3  border border-dark">
+      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3 px-3  border border-dark">
         <img src="imagen-mkt/crema-natural02.jpg" class="img-fluid" alt="">
         <section class= "articulos-ecommerce bg-white">
         <div class= "title-box py-5px">
@@ -633,7 +634,7 @@
         </section>
       </article>
 
-      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3  border border-dark">
+      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3 px-3  border border-dark">
         <img src="imagen-mkt/producto3.jpg" class="img-fluid" alt="">
         <section class= "articulos-ecommerce bg-white">
         <div class= "title-box py-5px">
@@ -667,8 +668,8 @@
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
           <i class="text-warning fa fa-star"></i>
-          <i class="text-warning fa fa-star-half-alt"></i>
-        <h5>$669</h5>
+          <i class="text-warning fa fa-star"></i>
+        <h5>$899</h5>
         <button type="button" class="btn btn-success">Comprar</button>
 
 
@@ -679,7 +680,7 @@
         </section>
       </article>
 
-      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3  border border-dark">
+      <article class="col-10 mx-auto p-0 col-md-4 text-center my-3 px-3 border border-dark">
         <img src="imagen-mkt/crema-natural03.jpg" class="img-fluid" alt="">
         <section class= "articulos-ecommerce bg-white">
         <div class= "title-box py-5px">
