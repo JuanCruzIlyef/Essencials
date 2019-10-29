@@ -57,7 +57,7 @@ background-image: url("imagen-mkt/textura02.jpg");
   <body class="container bg-home">
 
 
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-success p-1">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-success p-2">
       <a class="navbar-brand" href="home.html">Essencials</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -66,16 +66,16 @@ background-image: url("imagen-mkt/textura02.jpg");
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0 pr-md-5">
           <li class="nav-item active">
-            <a class="nav-link" href="home.html">Home</a>
+            <a class="nav-link" href="home.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="home.html#quienessomos">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contacto</a>
+            <a class="nav-link" href="contacto.php">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="faq.html">Preguntas frecuentes</a>
+            <a class="nav-link" href="faq.php">Preguntas frecuentes</a>
           </li>
           <li class="nav-item dropdown">
            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
