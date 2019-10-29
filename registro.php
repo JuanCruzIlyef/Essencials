@@ -1,4 +1,4 @@
-<<<<<<< HEAD:registro.php
+
 
 <?php
 require ("functions/indexFunctions.php");
@@ -25,8 +25,7 @@ if(!count($errors) == 0){
 
 
 }
-=======
->>>>>>> 761998713667a8c1dd150152047090cf4c726b93:html/registro.php
+
 
 ?>
 
@@ -49,14 +48,14 @@ background-image: url("imagen-mkt/textura02.jpg");
 </style>
 
   </head>
-<<<<<<< HEAD:registro.php
+
   <body class="container-fluid bg-home">
-=======
+
 
 
 
   <body class="container bg-home">
->>>>>>> 761998713667a8c1dd150152047090cf4c726b93:html/registro.php
+
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-success p-1">
       <a class="navbar-brand" href="home.html">Essencials</a>
@@ -83,8 +82,8 @@ background-image: url("imagen-mkt/textura02.jpg");
              Usuarios
            </a>
            <div class="dropdown-menu">
-             <a class="dropdown-item" href="login.html">Ingresar</a>
-             <a class="dropdown-item" href="registro.html">Registrarse</a>
+             <a class="dropdown-item" href="login.php">Ingresar</a>
+             <a class="dropdown-item" href="registro.php">Registrarse</a>
            </div>
          </li>
          <li class="nav-item dropdown mr-md-5">
@@ -105,9 +104,7 @@ background-image: url("imagen-mkt/textura02.jpg");
     <form class="Registrarse" action="registro.php" method="post" enctype="multipart/form-data">
       <p class="col-lg-6 col-md-12">
         <label for="Nombre"></label>
-        <input id="Nombre" type="text" name="Nombre" value="
-
-        " placeholder="Nombre">
+        <input id="Nombre" type="text" name="Nombre" value="" placeholder="Nombre">
       </p>
       <p class="col-lg-6 col-md-12">
         <label for="email"></label>
@@ -121,16 +118,9 @@ background-image: url("imagen-mkt/textura02.jpg");
         <label for="password"></label class="">
         <input id="password"type="password" name="password_confirmation" value="" placeholder="Confirmar contraseña">
       </p>
-      <p class="col-lg-6 col-md-12">
-        <label for="Subi tu foto"></label>
-        <input type="text" name="Imagen" value="" placeholder="Subi tu foto">
-        <input type="file" name="imagen" value="">
-      </p>
-      <p class="col-lg-2 col-md-12">
+        <p class="col-lg-2 col-md-12">
         <input class="btn btn-success" type="submit" name="" value="Enviar" id="boton">
       </p>
-
-
 
     </main>
 

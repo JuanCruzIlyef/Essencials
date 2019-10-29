@@ -52,8 +52,8 @@
            Usuarios
          </a>
          <div class="dropdown-menu">
-           <a class="dropdown-item" href="login.html">Ingresar</a>
-           <a class="dropdown-item" href="registro.html">Registrarse</a>
+           <a class="dropdown-item" href="login.php">Ingresar</a>
+           <a class="dropdown-item" href="registro.php">Registrarse</a>
          </div>
        </li>
        <li class="nav-item dropdown mr-md-5">
@@ -147,7 +147,7 @@
         <p class="lead">Nuestra finalidad es crear cosméticos naturales, con materias primas seleccionadas, de eficacia comprobada, buscando mantener y potencias sus cualidades y beneficios. <br>
           Utilizamos aceites esenciales puros, por sus exquisitos aromas y propiedades.</p>
         <hr class="my-4">
-        <p>No testeamos en animales. <i class="fas fa-paw"></i> </p> 
+        <p>No testeamos en animales. <i class="fas fa-paw"></i> </p>
 
 
       </div>
