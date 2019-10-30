@@ -18,11 +18,11 @@ if($_POST){
     <title>Ingresar</title>
     <style>
       .bg-home{
-        background-color: rgba(200,250,45.1);
+        background-image: url("imagen-mkt/textura02.jpg");
       }
     </style>
   </head>
-  <body class="container bg-home">
+  <body class="bg-home">
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-success p-1">
       <a class="navbar-brand" href="home.html">Essencials</a>
@@ -31,7 +31,7 @@ if($_POST){
       </button>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 pr-md-5">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-4 pr-md-5">
           <li class="nav-item active">
             <a class="nav-link" href="home.html">Home</a>
           </li>
@@ -66,7 +66,7 @@ if($_POST){
       </div>
     </nav>
 
-<main class="container bg-info p-5 m-8" align="center p-5">
+<main class="container-fluid p-2 m-4" align="center">
     <h3>Ingresar</h3>
     <form class="Ingreso" action="login.php" method="post">
       <p>

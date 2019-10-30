@@ -15,7 +15,7 @@
   <title>Preguntas frecuentes</title>
   <style>
     .bg-home{
-      background-color: rgba(200,250,45.1);
+      background-image: url("imagen-mkt/textura02.jpg");
     }
   </style>
 </head>

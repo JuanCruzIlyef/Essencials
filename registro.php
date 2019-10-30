@@ -49,22 +49,22 @@ background-image: url("imagen-mkt/textura02.jpg");
 
   </head>
 
-  <body class="container-fluid bg-home">
+  <body class="bg-home">
 
 
 
 
-  <body class="container bg-home">
+  <body class="bg-home">
 
 
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-success p-2">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-success p-1">
       <a class="navbar-brand" href="home.html">Essencials</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 pr-md-5">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-4 pr-md-5">
           <li class="nav-item active">
             <a class="nav-link" href="home.php">Home</a>
           </li>
@@ -99,7 +99,7 @@ background-image: url("imagen-mkt/textura02.jpg");
       </div>
     </nav>
 <!--Registro-->
-<main class="container-fluid p-4 m-8" align="center p-10">
+<main class="container-fluid p-4 m-8">
     <h3><u>Registrarse<u></h3>
     <form class="Registrarse" action="registro.php" method="post" enctype="multipart/form-data">
       <p class="col-lg-6 col-md-12">
@@ -132,7 +132,7 @@ background-image: url("imagen-mkt/textura02.jpg");
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
   <footer>
-    <?php require ("modulos/footer.php"); ?>
+
   </footer>
 
 </html>

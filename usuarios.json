@@ -26,5 +26,13 @@
     {
         "email": "",
         "password": "$2y$10$uXxj4LBuUSIxPjBe85VLPuUa.lw3wF3QSXqgPr02fwkq048FwnJ6G"
+    },
+    {
+        "email": "soledadgmaldonado@hotmail.com",
+        "password": "$2y$10$1Njqp\/X\/Q6aA.r9Pcxwlr.in6KnO97wA0KtdL4k7QZVa5eTxDKE\/i"
+    },
+    {
+        "email": "f@gmail.com",
+        "password": "$2y$10$\/XhYGnCY1gWdQ6c.DW15Oeno\/71vJpBXrg5AgxYi0pX9ULWNMDnwK"
     }
 ]
