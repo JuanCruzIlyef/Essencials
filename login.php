@@ -42,5 +42,4 @@ if($_POST){
     </footer>
     <?php require 'modulos/scripts.php'; ?>
   </body>
-  <footer></footer>
 </html>
