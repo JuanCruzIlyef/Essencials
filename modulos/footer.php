@@ -6,16 +6,16 @@
       <h5 class:"links"><u>Links</u></h5>
       <ul class="links">
         <li>
-          <a href="#quienessomos">Nosotros</a>
+          <a href="index.php#quienessomos">Nosotros</a>
         </li>
         <li>
-          <a href="faq.html">Preguntas frecuentes</a>
+          <a href="faq.php">Preguntas frecuentes</a>
         </li>
         <li>
-          <a href="login.html">Ingresar</a>
+          <a href="login.php">Ingresar</a>
         </li>
         <li>
-          <a href="registro.html">Registrarse</a>
+          <a href="registro.php">Registrarse</a>
         </li>
       </ul>
     </div>

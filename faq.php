@@ -1,72 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS . -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<!-- Font Awesome -->
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-<link rel="stylesheet" href="css/style.css">
-  <title>Preguntas frecuentes</title>
-  <style>
-    .bg-home{
-      background-image: url("imagen-mkt/textura02.jpg");
-    }
-  </style>
+  <?php require ('modulos/head.php'); ?>
+  <title>Home</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<!-- HEAD END -->
-
-
-<body class="container-fluid bg-home">
-
-<!-- NAVBAR START -->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-success p-1">
-    <a class="navbar-brand" href="home.html">Essencials</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav ml-auto mt-2 mt-lg-0 pr-md-5">
-        <li class="nav-item active">
-          <a class="nav-link" href="home.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="home.html#quienessomos">Nosotros</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contacto.html">Contacto</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="faq.html">Preguntas frecuentes</a>
-        </li>
-        <li class="nav-item dropdown">
-         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-           Usuarios
-         </a>
-         <div class="dropdown-menu">
-           <a class="dropdown-item" href="login.html">Ingresar</a>
-           <a class="dropdown-item" href="registro.html">Registrarse</a>
-         </div>
-       </li>
-       <li class="nav-item dropdown mr-md-5">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-shopping-cart"></i>
-        </a>
-        <ul class="dropdown-menu">
-          <li class="dropdown-item" href="producto.html">CREMAS</li>
-          <li class="dropdown-item" href="producto.html">JABONES</li>
-        </ul>
-      </li>
-      </ul>
-    </div>
-  </nav>
-<!-- NAVBAR END -->
+<body class="bg-home">
+<header>
+  <?php require ("modulos/navbar.php"); ?>
+</header>
 
 <!-- FAQ START -->
 
@@ -162,13 +104,10 @@
 
 </main>
 <!-- FAQ END -->
-
-
-
-  <!-- scripts -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<footer class="page-footer font-small blue pt-4">
+    <?php  require ("modulos/footer.php"); ?>
+</footer>
+<?php require 'modulos/scripts.php'; ?>
 </body>
 
 </html>

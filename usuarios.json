@@ -34,5 +34,9 @@
     {
         "email": "f@gmail.com",
         "password": "$2y$10$\/XhYGnCY1gWdQ6c.DW15Oeno\/71vJpBXrg5AgxYi0pX9ULWNMDnwK"
+    },
+    {
+        "email": "",
+        "password": "$2y$10$FCaz9KT8RBEYKo\/CNCHMiergtm5URnDfXRICMygebNM3fXXAV9uDm"
     }
 ]
