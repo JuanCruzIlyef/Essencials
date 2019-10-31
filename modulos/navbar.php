@@ -29,8 +29,13 @@ array asociativo y un foreach dentro de la ul
          Usuarios
        </a>
        <div class="dropdown-menu">
+         <?php if(isset($_SESSION["usuario"])) :?>
+           <a class="dropdown-item" href="perfil.php">Mi perfil</a>
+           <a class="dropdown-item" href="logout.php">Salir</a>
+      <?php else : ?>
          <a class="dropdown-item" href="login.php">Ingresar</a>
          <a class="dropdown-item" href="registro.php">Registrarse</a>
+       <?php endif; ?>
        </div>
      </li>
     </ul>
