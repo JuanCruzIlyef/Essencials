@@ -1,8 +1,9 @@
 <?php
 if($_POST){
-  include("validacion_php");
+  include('functions\loginFuncion.php');
 }
  ?>
+
  <!DOCTYPE html>
  <html lang="en">
  <head>
@@ -18,17 +19,31 @@ if($_POST){
     <div class="row">
       <div class="col-12 col-md-6 mx-md-auto bg-success p-5 my-5">
         <h3 class="text-center text-light"><u>Ingresar<u></h3>
+
+
       </div>
     </div>
     <div class="row">
       <div class="col-12 col-md-6 mx-md-auto">
-        <form class="" action="" method="post">
+
+        <form class="Ingresar" action="login.php" method="post" enctype="multipart/form-data">
+          
           <div class="form-row">
-            <div class="col-12 col-md-6">
+    <p>
+              <div class="col-12 col-md-6">
+              <label for="email"></label>
               <input id="email"type="email" class="form-control" name="email" value="" placeholder="E-mail">
+
+    </p>
             </div>
+
+      <p>
             <div class="col-12 col-md-6">
+              <label for="password"></label>
               <input id="password" class="form-control" type="password" name="password" value="" placeholder="Contraseña">
+              <span><?php echo $errores["password"] ?></span>
+        </p>
+
             </div>
           </div>
           <div class="form-row">
