@@ -1,6 +1,11 @@
 <?php
 require ('functions/indexFunctions.php'); session_start();
 ?>
+
+<?php
+require ('functions/loginFuncion.php');
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -34,6 +34,34 @@
     </div>
   </section>
 <!--FINAL Nosotros-->
+<br/>
+<div class="container-fluid" id="discount">
+<div class="container discount-session-content">
+<div class"row">
+<div class= "col-md-6">
+<h1 class="txt-light text-capitalize">
+Seguinos!
+<h1><br/>
+<div class="social-icon">
+<i class="fab fa-facebook" aria-hidden="true"></i>
+<i class="fab fa-twitter" aria-hidden="true"></i>
+<i class="fab fa-instagram" aria-hidden="true"></i>
+</div>
+</div>
+
+<div class="col-md-6">
+<h1>Suscribite y recibí las ultimas noticias<br/></h1>
+<p class="discount-session-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum.</p><br/>
+<form class="form-inline">
+<div class="form-group mx-sm-12 mb-2">
+<input type="password" class"form-control" id="inputPassword2" placeholder="Ingresá tu Email"><button type="submit" class="btn btn-success text-light mb-2"> Suscribite Aquí </button>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
 
 <?php require 'productos.php'; ?>
 

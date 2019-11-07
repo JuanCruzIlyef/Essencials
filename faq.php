@@ -3,6 +3,13 @@
 <head>
   <?php require ('modulos/head.php'); ?>
   <title>Home</title>
+  <style>
+    .bg-home{
+      background-image: url("imagen-mkt/textura02.jpg");
+      background-repeat: repeat;
+
+    }
+  </style>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-home">
