@@ -1,11 +1,6 @@
 <?php
 if($_POST){
-<<<<<<< HEAD
-  include("./functions/loginFuncion.php
-  validacion_php");
-=======
   include('functions\loginFuncion.php');
->>>>>>> 1198b015c1bc8875cc427f6a9471ee0e90bd1465
 }
  ?>
 
@@ -32,7 +27,7 @@ if($_POST){
       <div class="col-12 col-md-6 mx-md-auto">
 
         <form class="Ingresar" action="login.php" method="post" enctype="multipart/form-data">
-          
+
           <div class="form-row">
     <p>
               <div class="col-12 col-md-6">
