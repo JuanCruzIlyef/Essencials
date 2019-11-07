@@ -1,6 +1,7 @@
 <?php
 if($_POST){
-  include("validacion_php");
+  include("./functions/loginFuncion.php
+  validacion_php");
 }
  ?>
  <!DOCTYPE html>

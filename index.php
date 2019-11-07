@@ -1,5 +1,5 @@
 <?php
-require ('functions/indexFunctions.php');
+require ('functions/indexFunctions.php'); session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">

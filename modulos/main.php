@@ -1,6 +1,6 @@
 
 
-<?php require 'carousel.php'; ?>
+<?php require ("carousel.php"); ?>
 
 <!--SECCION DE  ANUNCIO DE Descuentos-->
   <section class="row">
