@@ -18,7 +18,31 @@ $items = [
 ],
 [
   "image" => "imagen-mkt/slideshow/mini_publicidad13.jpg",
-  
+
 ],
+];
+
+
+$links = [
+  [
+    "url" => 'index.php',
+    "text" => 'Home',
+    "alt" => '',
+  ],
+  [
+    "url" => 'index.php#quienessomos',
+    "text" => 'Nosotros',
+    "alt" => '',
+  ],
+  [
+    "url" => 'contacto.php',
+    "text" => 'Contacto', 
+    "alt" => '',
+  ],
+  [
+    "url" => 'faq.php',
+    "text" => 'Preguntas Frecuentes',
+    "alt" => '',
+  ],
 ];
  ?>

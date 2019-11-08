@@ -1,6 +1,6 @@
 <?php
 if($_POST){
-  include('functions\loginFuncion.php');
+  include('functions/loginFuncion.php');
 }
  ?>
 
@@ -11,39 +11,32 @@ if($_POST){
    <title>Home</title>
    <link rel="stylesheet" href="css/style.css">
  </head>
- <body class="bg-home">
+   <body class="bg-home">
    <header>
-     <?php require ("modulos/navbar.php"); ?>
+    <?php require ("modulos/navbar.php"); ?>
    </header>
-  <main class="container-fluid p-2 m-4" align="center">
-    <div class="row">
+    <main class="container-fluid p-2 m-4" align="center">
+     <div class="row">
       <div class="col-12 col-md-6 mx-md-auto bg-success p-5 my-5">
         <h3 class="text-center text-light"><u>Ingresar<u></h3>
-
-
       </div>
-    </div>
-    <div class="row">
+     </div>
+     <div class="row">
       <div class="col-12 col-md-6 mx-md-auto">
-
         <form class="Ingresar" action="login.php" method="post" enctype="multipart/form-data">
-
           <div class="form-row">
-    <p>
+            <p>
               <div class="col-12 col-md-6">
               <label for="email"></label>
               <input id="email"type="email" class="form-control" name="email" value="" placeholder="E-mail">
-
-    </p>
+           </p>
             </div>
-
-      <p>
+           <p>
             <div class="col-12 col-md-6">
               <label for="password"></label>
               <input id="password" class="form-control" type="password" name="password" value="" placeholder="Contraseña">
               <span><?php echo $errores["password"] ?></span>
-        </p>
-
+           </p>
             </div>
           </div>
           <div class="form-row">
