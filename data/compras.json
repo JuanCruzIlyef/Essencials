@@ -1,0 +1,110 @@
+[
+  {
+    "id": "5dc617c1464d7b92bb458af5",
+    "user": "pedro",
+    "productos": [
+      {
+        "id": "5dc617c1b87717b277b4d3dd",
+        "imagen": "http://placehold.it/140x140",
+        "precio": 195,
+        "descripcion": "adipisicing proident elit non velit sunt labore anim culpa sit eu et sunt consectetur nostrud magna nisi exercitation officia ut est dolor excepteur esse ea ad fugiat Lorem aute deserunt officia excepteur minim aliquip aliqua consectetur ad magna officia tempor nisi duis qui id dolor sit id adipisicing laboris officia",
+        "puntaje": 4,
+        "categoria": [
+          "dolor"
+        ]
+      },
+      {
+        "id": "5dc617c1d4ac76d6f33955d7",
+        "imagen": "http://placehold.it/140x140",
+        "precio": 170,
+        "descripcion": "adipisicing deserunt cillum aliquip culpa enim sit voluptate esse excepteur voluptate cupidatat quis dolore non fugiat sunt elit cupidatat ex enim cupidatat cillum esse amet sint fugiat non quis cupidatat mollit non officia pariatur et tempor commodo eiusmod voluptate est id aute amet fugiat tempor ea labore incididunt minim eu",
+        "puntaje": 5,
+        "categoria": [
+          "aliquip"
+        ]
+      },
+      {
+        "id": "5dc617c132be3c699990f541",
+        "imagen": "http://placehold.it/140x140",
+        "precio": 40,
+        "descripcion": "ipsum velit nulla consequat cupidatat ullamco excepteur adipisicing veniam ut sunt ad dolor Lorem reprehenderit proident exercitation anim adipisicing incididunt sit id excepteur sunt officia nostrud magna eiusmod ex reprehenderit velit cillum fugiat Lorem do aute duis est veniam elit anim sint consectetur consectetur elit velit commodo laborum cupidatat cupidatat",
+        "puntaje": 0,
+        "categoria": [
+          "minim"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5dc617c19c71fc85d9de700d",
+    "user": "pedro",
+    "productos": [
+      {
+        "id": "5dc617c1239309772b9aabcd",
+        "imagen": "http://placehold.it/140x140",
+        "precio": 8,
+        "descripcion": "irure veniam ex consectetur nulla non Lorem dolor incididunt in reprehenderit commodo et sit irure dolore consectetur ipsum id magna sint officia ad occaecat reprehenderit aute labore ea dolore est nisi exercitation cupidatat incididunt laboris nisi consectetur culpa enim proident nisi sunt officia nisi tempor labore amet aliqua Lorem nulla",
+        "puntaje": 4,
+        "categoria": [
+          "enim"
+        ]
+      },
+      {
+        "id": "5dc617c17812d8420d970edc",
+        "imagen": "http://placehold.it/140x140",
+        "precio": 181,
+        "descripcion": "velit aliquip amet fugiat est Lorem quis incididunt proident elit aliqua aliquip commodo reprehenderit nostrud aliqua irure in labore irure consequat ad cillum adipisicing aliqua labore deserunt adipisicing labore quis laborum culpa incididunt ipsum est quis est fugiat Lorem sint Lorem fugiat qui nostrud ea commodo sit quis amet ullamco",
+        "puntaje": 1,
+        "categoria": [
+          "quis"
+        ]
+      },
+      {
+        "id": "5dc617c13617e6e7077cb21f",
+        "imagen": "http://placehold.it/140x140",
+        "precio": 143,
+        "descripcion": "cillum nostrud quis pariatur officia mollit dolore culpa cillum occaecat sunt ex eu dolor ipsum cupidatat officia elit aliquip sit cillum est nostrud occaecat ex excepteur ipsum ea nisi nisi magna minim dolore elit adipisicing non commodo nisi laboris do mollit nostrud est deserunt nulla adipisicing veniam sint culpa dolore",
+        "puntaje": 4,
+        "categoria": [
+          "ut"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5dc617c1f5ed4024898c073a",
+    "user": "pedro",
+    "productos": [
+      {
+        "id": "5dc617c1a72dc0e2d7c9eba8",
+        "imagen": "http://placehold.it/140x140",
+        "precio": 147,
+        "descripcion": "Lorem pariatur et dolore nisi nisi pariatur cillum dolor sit anim velit tempor sit aliqua anim anim commodo sint sunt cillum et cupidatat esse nisi incididunt nulla ut enim adipisicing duis officia mollit incididunt qui nostrud do quis laboris proident do deserunt voluptate reprehenderit ex Lorem incididunt cillum irure ex",
+        "puntaje": 3,
+        "categoria": [
+          "elit"
+        ]
+      },
+      {
+        "id": "5dc617c109acb8812e892935",
+        "imagen": "http://placehold.it/140x140",
+        "precio": 190,
+        "descripcion": "ea in amet ut exercitation ex reprehenderit aute consectetur exercitation sint culpa non commodo dolor adipisicing sit esse laboris consectetur consectetur velit commodo officia officia adipisicing sunt adipisicing ad sint culpa ipsum dolore commodo cupidatat incididunt sint nulla laborum minim amet consequat elit adipisicing excepteur commodo elit dolore Lorem occaecat",
+        "puntaje": 4,
+        "categoria": [
+          "nulla"
+        ]
+      },
+      {
+        "id": "5dc617c126d65dd311b02452",
+        "imagen": "http://placehold.it/140x140",
+        "precio": 78,
+        "descripcion": "nulla ullamco pariatur quis veniam sint qui ad reprehenderit est aliqua non exercitation id ullamco dolore ipsum ullamco velit et occaecat pariatur ipsum est aliquip dolore aliquip ipsum ad tempor pariatur adipisicing ut anim nulla aliquip culpa consequat elit et commodo eiusmod id nulla ea proident occaecat excepteur sint ea",
+        "puntaje": 4,
+        "categoria": [
+          "eu"
+        ]
+      }
+    ]
+  }
+]

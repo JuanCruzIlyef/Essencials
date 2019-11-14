@@ -3,36 +3,52 @@
 <?php require ("carousel.php"); ?>
 
 <!--SECCION DE  ANUNCIO DE Descuentos-->
-  <section class="row">
-    <div class="col-12 my-md-4">
-      <div class="row">
-        <figure class=" d-inline-block p-0 m-0 col-md-4 text-center">
-          <img src="imagen-mkt/jasmin-34floedit.jpg" alt="" class="img-thumbnail w-75 rounded-circle">
-        </figure>
-        <figure class=" d-inline-block p-0 m-0 col-md-4 text-center">
-          <img src="imagen-mkt/fruits-223tedit.jpg" alt="" class="img-thumbnail w-75 rounded-circle">
-        </figure>
-        <figure class=" d-inline-block p-0 m-0 col-md-4 text-center">
-          <img src="imagen-mkt/bamboo-82edit.jpg" alt="" class="img-thumbnail w-75 rounded-circle">
-        </figure>
-      </div>
+<div class="jumbotron jumbotron-fluid bg-success text-white text-center mb-0 ">
+    <div class="container">
+        <h1 class="display-4">Descubrí</h1>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <a href="?action=categoria&categoria=cremas">
+                    <img src="imagenes/productos/publicidad10.jpg" alt="" class="rounded-circle img-fluid">
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="?action=categoria&categoria=jabones">
+                    <img src="imagenes/productos/crema-producto.jpg" alt="" class="rounded-circle img-fluid">
+                </a>
+            </div>
+            <div class="col-12 col-md-4">
+                <a href="Products/indProductos.php">
+                    <img src="imagenes/productos/ORVX5A0.jpg" alt="" class="rounded-circle img-fluid">
+                </a>
+            </div>
+        </div>
     </div>
-  </section>
+</div>
+
+<div class="jumbotron jumbotron-fluid bg-light text-success text-center ">
+    <div class="container">
+        <h1 class="display-4">Nosotros</h1>
+        <div class="row">
+            <div class="col-12 col-md-6 mx-md-auto text-center">
+                <p>
+                    Nuestra finalidad es crear cosméticos naturales, con materias primas seleccionadas,
+                    de eficacia comprobada, buscando mantener y potencias sus cualidades y beneficios.
+                    Utilizamos aceites esenciales puros, por sus exquisitos aromas y propiedades
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
 <!--FINAL SECCION DE  ANUNCIO DE Descuentos-->
 
 <!--Nosotros-->
-<section class="row">
-      <div class="col-12 mt-5" id="about_us" >
-      <div class="jumbotron" id="quienessomos">
-        <h1 class="display-4">Bienvenido a Essencials!</h1>
-        <p class="lead">Nuestra finalidad es crear cosméticos naturales, con materias primas seleccionadas, de eficacia comprobada, buscando mantener y potencias sus cualidades y beneficios. <br>
-          Utilizamos aceites esenciales puros, por sus exquisitos aromas y propiedades.</p>
-        <hr class="my-4">
-        <p>No testeamos en animales.</p>
-      </div>
-    </div>
-  </section>
+
+
 <!--FINAL Nosotros-->
 <br/>
 <div class="container-fluid" id="discount">

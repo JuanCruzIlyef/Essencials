@@ -1,0 +1,12 @@
+[
+  {
+    "id": "5dc618037269bf99a59a22a3",
+    "nombre": "CREMA ACLARANTE",
+    "imagen": "https://image.freepik.com/vector-gratis/concepto-cosmetico-organico-envase-crema-cubierta-dorada-publicidad-revista-moda-r_1284-16238.jpg",
+    "precio": 64,
+    "descripcion": "La Crema aclaradora de Essencials aclara y reduce manchas en las áreas más expuestas: manos, cuello, escote y brazos.  Protege contra la aparición de nuevas manchas previniendo señales de envejecimiento. Alta protección UVA/UVB.",
+    "puntaje": 3,
+    "categoria": "cuidados del rostro",
+    "favorito": true
+  }
+]
